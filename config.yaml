@@ -1,0 +1,9 @@
+interface: eth0
+thresholds:
+  syn_scan: 15
+  ddos: 200
+  brute_force: 5
+model_path: models/autoencoder.pth
+prometheus_port: 8000
+db_path: alerts.db
+rules_file: rules/signatures.yml
